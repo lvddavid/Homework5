@@ -22,7 +22,7 @@ public class HarURLEntriesParser {
         List<UserModelList> userModelLists = objectMapper.readValue(fis, typeFactory.constructCollectionType(ArrayList.class, UserModelList.class));
 
         System.out.println(userModelLists);
-        System.out.println(userModelLists);
+
 
     }
 }
