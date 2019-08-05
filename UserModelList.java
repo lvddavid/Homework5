@@ -1,7 +1,5 @@
 package Task;
 
-import Task.UserModel;
-import Task.UserModel;
 
 import java.util.List;
 
@@ -21,7 +19,5 @@ public class UserModelList {
     }
     public void setAlbum (List<UserModel> album ) {
         this.album  = album ;
-
-
     }
 }

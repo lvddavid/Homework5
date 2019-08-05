@@ -2,24 +2,24 @@ package Task;
 
 public class UserModel {
 
-    private String songname;
-    private String lastname;
+    private String songName;
+    private String lastName;
     private String minutes;
 
-    public String getSongname() {
-        return songname;
+    public String getSongName() {
+        return songName;
     }
 
-    public void setSongname(String songname) {
-        this.songname = songname;
+    public void setSongName(String songName) {
+        this.songName = songName;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getMinutes() {
@@ -33,8 +33,8 @@ public class UserModel {
     @Override
     public String toString() {
         return "UserModel{" +
-                "songname='" + songname + '\'' +
-                ", lastname='" + lastname + '\'' +
+                "songName='" + songName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", minutes='" + minutes + '\'' +
                 '}';
     }
